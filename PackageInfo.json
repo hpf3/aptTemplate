@@ -1,0 +1,14 @@
+{
+    "name": "Package Template",
+    "id": "template.package",
+    "comment":"template package for ccpt",
+    "author": "Hpf3",
+    "website": "https://github.com/hpf3",
+    "newestversion": "1.0",
+    "dependencies": {
+    },
+    "install":{
+        "type":"script",
+        "scripturl": "{raw url of install script}"
+    }
+}
