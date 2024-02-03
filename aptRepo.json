@@ -1,6 +1,6 @@
 {
     "packages":{
-        "example": 
+        "example": "https://raw.githubusercontent.com/hpf3/aptTemplate/main/PackageInfo.json"
     },
     "ccptversion": "1.0"
 }

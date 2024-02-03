@@ -51,12 +51,12 @@ end
 if (args[1]=="install") or (args[1]==nil) then
 	print("[Installer] Well, hello there!")
 	print("[Installer] Installing 'template.package'...")
-	if downloadfile("/example.lua","{example.lua}")==false then
+	if downloadfile("/example.lua","https://raw.githubusercontent.com/hpf3/aptTemplate/main/example.lua")==false then
 		return false
 	end
 elseif args[1]=="update" then
 	print("[Installer] Updating 'template.package'...")
-	if downloadfile("/example.lua","{example.lua}")==false then
+	if downloadfile("/example.lua","https://raw.githubusercontent.com/hpf3/aptTemplate/main/example.lua")==false then
 		return false
 	end
 elseif args[1]=="remove" then

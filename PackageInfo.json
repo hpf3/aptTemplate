@@ -9,6 +9,6 @@
     },
     "install":{
         "type":"script",
-        "scripturl": "{raw url of install script}"
+        "scripturl": "https://raw.githubusercontent.com/hpf3/aptTemplate/main/exampleInstaller.lua"
     }
 }
